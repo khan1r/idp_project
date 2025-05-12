@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:t_store/features/authentication/controllers/onboarding_controller.dart';
-import 'package:t_store/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
-import 'package:t_store/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
-import 'package:t_store/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
-import 'package:t_store/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
-import 'package:t_store/utils/constraints/image_strings.dart';
-import 'package:t_store/utils/constraints/text_strings.dart';
+import 'package:ecommerce_project/features/authentication/controllers/onboarding_controller.dart';
+import 'package:ecommerce_project/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
+import 'package:ecommerce_project/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
+import 'package:ecommerce_project/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
+import 'package:ecommerce_project/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
+import 'package:ecommerce_project/utils/constraints/image_strings.dart';
+import 'package:ecommerce_project/utils/constraints/text_strings.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});

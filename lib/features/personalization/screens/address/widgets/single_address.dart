@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:t_store/common/widgets/custom_shapes/containers/rounded_container.dart';
-import 'package:t_store/utils/constraints/colors.dart';
-import 'package:t_store/utils/constraints/sizes.dart';
-import 'package:t_store/utils/helpers/helper_functions.dart';
+import 'package:ecommerce_project/common/widgets/custom_shapes/containers/rounded_container.dart';
+import 'package:ecommerce_project/utils/constraints/colors.dart';
+import 'package:ecommerce_project/utils/constraints/sizes.dart';
+import 'package:ecommerce_project/utils/helpers/helper_functions.dart';
 
 class TSingleAddress extends StatelessWidget {
   const TSingleAddress({Key? key, required this.selectedAddress})

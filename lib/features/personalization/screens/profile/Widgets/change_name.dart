@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:t_store/common/widgets/appbar/appbar.dart';
-import 'package:t_store/features/personalization/controllers/update_name_controller.dart';
-import 'package:t_store/utils/constraints/sizes.dart';
-import 'package:t_store/utils/constraints/text_strings.dart';
-import 'package:t_store/utils/validators/validation.dart';
+import 'package:ecommerce_project/common/widgets/appbar/appbar.dart';
+import 'package:ecommerce_project/features/personalization/controllers/update_name_controller.dart';
+import 'package:ecommerce_project/utils/constraints/sizes.dart';
+import 'package:ecommerce_project/utils/constraints/text_strings.dart';
+import 'package:ecommerce_project/utils/validators/validation.dart';
 
 class ChangeName extends StatelessWidget {
   const ChangeName({Key? key}) : super(key: key);

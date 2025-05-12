@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:t_store/features/authentication/controllers/signup/signup_controller.dart';
-import 'package:t_store/features/authentication/screens/signup/widgets/terms_conditions_checkbox.dart';
-import 'package:t_store/utils/constraints/sizes.dart';
-import 'package:t_store/utils/constraints/text_strings.dart';
-import 'package:t_store/utils/validators/validation.dart';
+import 'package:ecommerce_project/features/authentication/controllers/signup/signup_controller.dart';
+import 'package:ecommerce_project/features/authentication/screens/signup/widgets/terms_conditions_checkbox.dart';
+import 'package:ecommerce_project/utils/constraints/sizes.dart';
+import 'package:ecommerce_project/utils/constraints/text_strings.dart';
+import 'package:ecommerce_project/utils/validators/validation.dart';
 
 class TSignupForm extends StatelessWidget {
   const TSignupForm({

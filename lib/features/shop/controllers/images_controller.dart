@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:t_store/features/shop/models/product_model.dart';
-import 'package:t_store/utils/constraints/sizes.dart';
+import 'package:ecommerce_project/features/shop/models/product_model.dart';
+import 'package:ecommerce_project/utils/constraints/sizes.dart';
 
 class ImagesController extends GetxController {
   static ImagesController get instance => Get.find();

@@ -2,16 +2,16 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:t_store/data/repositories/authentication/authentication_repository.dart';
-import 'package:t_store/data/repositories/user/user_repository.dart';
-import 'package:t_store/features/authentication/screens/login/login.dart';
-import 'package:t_store/features/personalization/models/user_model.dart';
-import 'package:t_store/features/personalization/screens/profile/Widgets/re_authenticate_user_login_form.dart';
-import 'package:t_store/utils/constraints/image_strings.dart';
-import 'package:t_store/utils/constraints/sizes.dart';
-import 'package:t_store/utils/helpers/loaders.dart';
-import 'package:t_store/utils/helpers/network_manager.dart';
-import 'package:t_store/utils/popups/full_screen_loader.dart';
+import 'package:ecommerce_project/data/repositories/authentication/authentication_repository.dart';
+import 'package:ecommerce_project/data/repositories/user/user_repository.dart';
+import 'package:ecommerce_project/features/authentication/screens/login/login.dart';
+import 'package:ecommerce_project/features/personalization/models/user_model.dart';
+import 'package:ecommerce_project/features/personalization/screens/profile/Widgets/re_authenticate_user_login_form.dart';
+import 'package:ecommerce_project/utils/constraints/image_strings.dart';
+import 'package:ecommerce_project/utils/constraints/sizes.dart';
+import 'package:ecommerce_project/utils/helpers/loaders.dart';
+import 'package:ecommerce_project/utils/helpers/network_manager.dart';
+import 'package:ecommerce_project/utils/popups/full_screen_loader.dart';
 
 class UserController extends GetxController {
   static UserController get instance => Get.find();

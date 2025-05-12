@@ -1,13 +1,13 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:t_store/data/repositories/authentication/authentication_repository.dart';
-import 'package:t_store/data/repositories/user/user_repository.dart';
-import 'package:t_store/features/authentication/screens/signup/verify_email.dart';
-import 'package:t_store/features/personalization/models/user_model.dart';
-import 'package:t_store/utils/constraints/image_strings.dart';
-import 'package:t_store/utils/helpers/loaders.dart';
-import 'package:t_store/utils/helpers/network_manager.dart';
-import 'package:t_store/utils/popups/full_screen_loader.dart';
+import 'package:ecommerce_project/data/repositories/authentication/authentication_repository.dart';
+import 'package:ecommerce_project/data/repositories/user/user_repository.dart';
+import 'package:ecommerce_project/features/authentication/screens/signup/verify_email.dart';
+import 'package:ecommerce_project/features/personalization/models/user_model.dart';
+import 'package:ecommerce_project/utils/constraints/image_strings.dart';
+import 'package:ecommerce_project/utils/helpers/loaders.dart';
+import 'package:ecommerce_project/utils/helpers/network_manager.dart';
+import 'package:ecommerce_project/utils/popups/full_screen_loader.dart';
 
 class SignupController extends GetxController {
   static SignupController get instance => Get.find();

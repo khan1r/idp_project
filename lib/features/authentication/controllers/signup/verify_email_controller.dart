@@ -2,11 +2,11 @@ import 'dart:async';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
-import 'package:t_store/common/widgets/success_screen/success_screen.dart';
-import 'package:t_store/data/repositories/authentication/authentication_repository.dart';
-import 'package:t_store/utils/constraints/image_strings.dart';
-import 'package:t_store/utils/constraints/text_strings.dart';
-import 'package:t_store/utils/helpers/loaders.dart';
+import 'package:ecommerce_project/common/widgets/success_screen/success_screen.dart';
+import 'package:ecommerce_project/data/repositories/authentication/authentication_repository.dart';
+import 'package:ecommerce_project/utils/constraints/image_strings.dart';
+import 'package:ecommerce_project/utils/constraints/text_strings.dart';
+import 'package:ecommerce_project/utils/helpers/loaders.dart';
 
 class VerifyEmailController extends GetxController {
   static VerifyEmailController get instance => Get.find();

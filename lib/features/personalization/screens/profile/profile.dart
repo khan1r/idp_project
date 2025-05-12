@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:t_store/common/widgets/appbar/appbar.dart';
-import 'package:t_store/common/widgets/images/t_circular_image.dart';
-import 'package:t_store/common/widgets/loaders/shimmer.dart';
-import 'package:t_store/common/widgets/texts/section_heading.dart';
-import 'package:t_store/features/personalization/controllers/user_controller.dart';
-import 'package:t_store/features/personalization/screens/profile/Widgets/change_name.dart';
-import 'package:t_store/features/personalization/screens/profile/Widgets/profile_menu.dart';
-import 'package:t_store/utils/constraints/image_strings.dart';
-import 'package:t_store/utils/constraints/sizes.dart';
+import 'package:ecommerce_project/common/widgets/appbar/appbar.dart';
+import 'package:ecommerce_project/common/widgets/images/t_circular_image.dart';
+import 'package:ecommerce_project/common/widgets/loaders/shimmer.dart';
+import 'package:ecommerce_project/common/widgets/texts/section_heading.dart';
+import 'package:ecommerce_project/features/personalization/controllers/user_controller.dart';
+import 'package:ecommerce_project/features/personalization/screens/profile/Widgets/change_name.dart';
+import 'package:ecommerce_project/features/personalization/screens/profile/Widgets/profile_menu.dart';
+import 'package:ecommerce_project/utils/constraints/image_strings.dart';
+import 'package:ecommerce_project/utils/constraints/sizes.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({Key? key}) : super(key: key);

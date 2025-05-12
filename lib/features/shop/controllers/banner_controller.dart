@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:t_store/data/repositories/banners/banners_repository.dart';
-import 'package:t_store/features/shop/models/banner_model.dart';
-import 'package:t_store/utils/helpers/loaders.dart';
+import 'package:ecommerce_project/data/repositories/banners/banners_repository.dart';
+import 'package:ecommerce_project/features/shop/models/banner_model.dart';
+import 'package:ecommerce_project/utils/helpers/loaders.dart';
 
 class BannerController extends GetxController {
 

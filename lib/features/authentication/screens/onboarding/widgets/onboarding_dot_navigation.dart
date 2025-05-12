@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:t_store/features/authentication/controllers/onboarding_controller.dart';
-import 'package:t_store/utils/constraints/colors.dart';
-import 'package:t_store/utils/constraints/sizes.dart';
-import 'package:t_store/utils/device/device_utility.dart';
-import 'package:t_store/utils/helpers/helper_functions.dart';
+import 'package:ecommerce_project/features/authentication/controllers/onboarding_controller.dart';
+import 'package:ecommerce_project/utils/constraints/colors.dart';
+import 'package:ecommerce_project/utils/constraints/sizes.dart';
+import 'package:ecommerce_project/utils/device/device_utility.dart';
+import 'package:ecommerce_project/utils/helpers/helper_functions.dart';
 
 class OnBoardingNavigation extends StatelessWidget {
   const OnBoardingNavigation({

@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:t_store/utils/formatters/formatter.dart';
+import 'package:ecommerce_project/utils/formatters/formatter.dart';
 
 ///model class representing user data
 class UserModel {

@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:t_store/common/widgets/appbar/appbar.dart';
-import 'package:t_store/common/widgets/custom_shapes/containers/primary_header_container.dart';
-import 'package:t_store/common/widgets/list_tiles/settings_menu_tile.dart';
-import 'package:t_store/common/widgets/list_tiles/user_profile_tile.dart';
-import 'package:t_store/common/widgets/texts/section_heading.dart';
-import 'package:t_store/data/repositories/authentication/authentication_repository.dart';
-import 'package:t_store/features/personalization/screens/address/address.dart';
-import 'package:t_store/features/personalization/screens/profile/profile.dart';
-import 'package:t_store/features/shop/screens/order/order.dart';
-import 'package:t_store/utils/constraints/colors.dart';
-import 'package:t_store/utils/constraints/sizes.dart';
+import 'package:ecommerce_project/common/widgets/appbar/appbar.dart';
+import 'package:ecommerce_project/common/widgets/custom_shapes/containers/primary_header_container.dart';
+import 'package:ecommerce_project/common/widgets/list_tiles/settings_menu_tile.dart';
+import 'package:ecommerce_project/common/widgets/list_tiles/user_profile_tile.dart';
+import 'package:ecommerce_project/common/widgets/texts/section_heading.dart';
+import 'package:ecommerce_project/data/repositories/authentication/authentication_repository.dart';
+import 'package:ecommerce_project/features/personalization/screens/address/address.dart';
+import 'package:ecommerce_project/features/personalization/screens/profile/profile.dart';
+import 'package:ecommerce_project/features/shop/screens/order/order.dart';
+import 'package:ecommerce_project/utils/constraints/colors.dart';
+import 'package:ecommerce_project/utils/constraints/sizes.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({Key? key}) : super(key: key);

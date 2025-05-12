@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:t_store/bindings/general_bindings.dart';
-import 'package:t_store/routes/app_routes.dart';
-import 'package:t_store/utils/constraints/colors.dart';
-import 'package:t_store/utils/theme/theme.dart';
+import 'package:ecommerce_project/bindings/general_bindings.dart';
+import 'package:ecommerce_project/routes/app_routes.dart';
+import 'package:ecommerce_project/utils/constraints/colors.dart';
+import 'package:ecommerce_project/utils/theme/theme.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);

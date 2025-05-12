@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:t_store/common/widgets/login_signup/form_divider.dart';
-import 'package:t_store/common/widgets/login_signup/social_buttons.dart';
-import 'package:t_store/features/authentication/screens/signup/widgets/signup_form.dart';
-import 'package:t_store/utils/constraints/sizes.dart';
-import 'package:t_store/utils/constraints/text_strings.dart';
+import 'package:ecommerce_project/common/widgets/login_signup/form_divider.dart';
+import 'package:ecommerce_project/common/widgets/login_signup/social_buttons.dart';
+import 'package:ecommerce_project/features/authentication/screens/signup/widgets/signup_form.dart';
+import 'package:ecommerce_project/utils/constraints/sizes.dart';
+import 'package:ecommerce_project/utils/constraints/text_strings.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({Key? key}) : super(key: key);

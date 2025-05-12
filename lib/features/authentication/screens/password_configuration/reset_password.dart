@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:t_store/features/authentication/controllers/forget_password/forget_password_controller.dart';
-import 'package:t_store/features/authentication/screens/login/login.dart';
-import 'package:t_store/utils/constraints/image_strings.dart';
-import 'package:t_store/utils/constraints/sizes.dart';
-import 'package:t_store/utils/constraints/text_strings.dart';
-import 'package:t_store/utils/helpers/helper_functions.dart';
+import 'package:ecommerce_project/features/authentication/controllers/forget_password/forget_password_controller.dart';
+import 'package:ecommerce_project/features/authentication/screens/login/login.dart';
+import 'package:ecommerce_project/utils/constraints/image_strings.dart';
+import 'package:ecommerce_project/utils/constraints/sizes.dart';
+import 'package:ecommerce_project/utils/constraints/text_strings.dart';
+import 'package:ecommerce_project/utils/helpers/helper_functions.dart';
 
 class ResetPasswordScreen extends StatelessWidget {
   const ResetPasswordScreen({Key? key, required this.email}) : super(key: key);

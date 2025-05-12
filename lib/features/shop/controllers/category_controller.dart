@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:t_store/data/repositories/categories/category_repository.dart';
-import 'package:t_store/features/shop/models/category_model.dart';
-import 'package:t_store/utils/helpers/loaders.dart';
+import 'package:ecommerce_project/data/repositories/categories/category_repository.dart';
+import 'package:ecommerce_project/features/shop/models/category_model.dart';
+import 'package:ecommerce_project/utils/helpers/loaders.dart';
 
 class CategoryController extends GetxController {
   static CategoryController get instance => Get.find();

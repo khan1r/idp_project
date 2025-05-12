@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:t_store/common/widgets/appbar/appbar.dart';
-import 'package:t_store/features/personalization/screens/address/widgets/add_new_address.dart';
-import 'package:t_store/features/personalization/screens/address/widgets/single_address.dart';
-import 'package:t_store/utils/constraints/colors.dart';
-import 'package:t_store/utils/constraints/sizes.dart';
+import 'package:ecommerce_project/common/widgets/appbar/appbar.dart';
+import 'package:ecommerce_project/features/personalization/screens/address/widgets/add_new_address.dart';
+import 'package:ecommerce_project/features/personalization/screens/address/widgets/single_address.dart';
+import 'package:ecommerce_project/utils/constraints/colors.dart';
+import 'package:ecommerce_project/utils/constraints/sizes.dart';
 
 class UserAddressScreen extends StatelessWidget {
   const UserAddressScreen({Key? key}) : super(key: key);

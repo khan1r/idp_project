@@ -1,20 +1,20 @@
 import 'package:get/get.dart';
-import 'package:t_store/features/authentication/screens/login/login.dart';
-import 'package:t_store/features/authentication/screens/onboarding/onboarding.dart';
-import 'package:t_store/features/authentication/screens/password_configuration/forget_password.dart';
-import 'package:t_store/features/authentication/screens/signup/signup.dart';
-import 'package:t_store/features/authentication/screens/signup/verify_email.dart';
-import 'package:t_store/features/personalization/screens/address/address.dart';
-import 'package:t_store/features/personalization/screens/profile/profile.dart';
-import 'package:t_store/features/personalization/screens/settings/settings.dart';
-import 'package:t_store/features/shop/screens/cart/cart.dart';
-import 'package:t_store/features/shop/screens/checkout/checkout.dart';
-import 'package:t_store/features/shop/screens/home/home.dart';
-import 'package:t_store/features/shop/screens/order/order.dart';
-import 'package:t_store/features/shop/screens/product_reviews/product_reviews.dart';
-import 'package:t_store/features/shop/screens/store/store.dart';
-import 'package:t_store/features/shop/screens/wishlist/wishlist.dart';
-import 'package:t_store/routes/routes.dart';
+import 'package:ecommerce_project/features/authentication/screens/login/login.dart';
+import 'package:ecommerce_project/features/authentication/screens/onboarding/onboarding.dart';
+import 'package:ecommerce_project/features/authentication/screens/password_configuration/forget_password.dart';
+import 'package:ecommerce_project/features/authentication/screens/signup/signup.dart';
+import 'package:ecommerce_project/features/authentication/screens/signup/verify_email.dart';
+import 'package:ecommerce_project/features/personalization/screens/address/address.dart';
+import 'package:ecommerce_project/features/personalization/screens/profile/profile.dart';
+import 'package:ecommerce_project/features/personalization/screens/settings/settings.dart';
+import 'package:ecommerce_project/features/shop/screens/cart/cart.dart';
+import 'package:ecommerce_project/features/shop/screens/checkout/checkout.dart';
+import 'package:ecommerce_project/features/shop/screens/home/home.dart';
+import 'package:ecommerce_project/features/shop/screens/order/order.dart';
+import 'package:ecommerce_project/features/shop/screens/product_reviews/product_reviews.dart';
+import 'package:ecommerce_project/features/shop/screens/store/store.dart';
+import 'package:ecommerce_project/features/shop/screens/wishlist/wishlist.dart';
+import 'package:ecommerce_project/routes/routes.dart';
 
 class AppRoutes {
   static final pages = [

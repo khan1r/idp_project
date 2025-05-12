@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:t_store/utils/constraints/colors.dart';
+import 'package:ecommerce_project/utils/constraints/colors.dart';
 
 class TShadowStyle {
 

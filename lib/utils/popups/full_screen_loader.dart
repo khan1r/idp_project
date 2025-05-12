@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:t_store/common/widgets/loaders/animation_loader.dart';
-import 'package:t_store/utils/constraints/colors.dart';
-import 'package:t_store/utils/helpers/helper_functions.dart';
+import 'package:ecommerce_project/common/widgets/loaders/animation_loader.dart';
+import 'package:ecommerce_project/utils/constraints/colors.dart';
+import 'package:ecommerce_project/utils/helpers/helper_functions.dart';
 
 ///a utility class for managing full screen loading dialog
 
